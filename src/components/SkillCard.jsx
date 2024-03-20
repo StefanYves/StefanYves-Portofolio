@@ -43,18 +43,18 @@ const SkillCard = () => {
             <p class="text-white text-lg md:text-xl lg:text-2xl font-medium w-1/5 md:w-1/12">
               <Fade left>React</Fade>
             </p>
-            <Skills value={50} duration={1000} />
+            <Skills value={25} duration={1000} />
             <p class="text-white font-medium">
-              <Fade right>50%</Fade>
+              <Fade right>25%</Fade>
             </p>
           </div>
           <div class="flex items-center justify-between">
             <p class="text-white text-lg md:text-xl lg:text-2xl font-medium w-1/5 md:w-1/12">
               <Fade left>Git</Fade>
             </p>
-            <Skills value={25} duration={1000} />
+            <Skills value={50} duration={1000} />
             <p class="text-white font-medium">
-              <Fade right>25%</Fade>
+              <Fade right>50%</Fade>
             </p>
           </div>
         </div>

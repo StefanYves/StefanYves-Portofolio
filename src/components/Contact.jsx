@@ -62,7 +62,7 @@ const Contact = () => {
             </Fade>
           </div>
 
-          <p class="max-w-2xl text-xl mb-10 mt-5">Made by me @2023</p>
+          <p class="max-w-2xl text-xl mb-10 mt-5">Made by me @2024</p>
         </div>
       </div>
     </div>

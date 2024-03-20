@@ -18,19 +18,20 @@ const Card3 = () => {
             <img src={gd} alt="" className="rounded-lg" />
           </div>
           <p className="font-medium text-lg text-center mt-10 mr-1 ml-1">
-            Experience the future of portfolio websites with 6maex's captivating
-            landing page. Combining React, Tailwind CSS, and Three.js, this
-            cutting-edge platform showcases stunning visuals and interactive
-            designs. <span className="bold"> ( WORK IN PROGRESS )</span>
+            Introducing a dynamic Todo List powered by JavaScript, Webpack and
+            styled with the sleek Tailwind CSS framework, and bundled using
+            Webpack. This application ensures seamless task management on
+            various devices.
           </p>
         </div>
         <div className="back">
           <div className="flex flex-col justify-between items-center">
-            <p className="text-center font-medium text-lg mt-2">
-              Prepare to be mesmerized by the seamless navigation and dynamic
-              elements that bring 6maex's graphic design portfolio to life.
-              Discover a new dimension of creativity with 6maex's revolutionary
-              landing page.
+            <p className="text-center font-medium text-lg mt-2 ml-1 mr-1">
+              Thanks to Webpack, the application is optimized for performance,
+              ensuring a fast and reliable user experience. Stay organized and
+              productive with this minimalist yet powerful Todo List, where
+              Tailwind CSS and Webpack combine to create an efficiently bundled
+              solution.
             </p>
           </div>
         </div>

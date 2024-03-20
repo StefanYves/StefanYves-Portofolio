@@ -26,7 +26,7 @@ const Card2 = () => {
         </div>
         <div className="back">
           <div className="flex flex-col justify-between items-center">
-            <p className="text-center font-medium text-lg mt-2">
+            <p className="text-center font-medium text-lg mt-2 ml-1 mr-1">
               To initiate conversations with your friends, simply utilize the
               search bar to locate and add them as contacts by clicking on their
               respective icons. Once added, you can seamlessly engage in

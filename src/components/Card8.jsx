@@ -15,18 +15,21 @@ const Card3 = () => {
       <div className={`card ${isHovered ? "flipped" : ""}`}>
         <div className="front flex flex-col">
           <div className="flex items-center justify-center mt-20">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE+UlEQVR4nL2ae4hVVRTGZ1JLzUcmvkqLIRCyTOuvTLIE6W32hxEVFRVRqVlBRhkYWWiBgZBQSWEiZJAkJhRRYTlZYX+kwhjYw8qoMStzLN/5i2XfkTW7fe45p+4+HwzM/tZee33rnnv2Y+3b0lIBQE/gamAxsB74GvgNOAzsA3YCXwJvA08Dk4ETcsb6COgArmupG8DnVMeWnLE82oG2upIYqKAHgMeAKZmKiLhrgQXAIbUHNEjEnqbhZ2BiHYmco4BfhGIatLeLGt0gkQuBbe5Duih1Ilcq2LsVEvlE1KS8RPT/KXrnDJ3AqJSJ3HksDCyvkMhqUTc0SkTtPsBG0W+lTGSegiyokMjzou4vSkTcSOB3mS5PlcgSBZhVIZHHw+QbJWIAHpLpg5YUAF4LvyYlEpkhammFRPoDfwBHgbNSJPK+Yk+pkMhNot4om4gBWCHzgy3NBrBZg4+vkMhVotorJnKbzKtTJPKNBj+zQiITRHVUTORcmb9KkchPGnyo42xrsb5B+2z5fB8Zz94BQ2vENli2Q3l7tf+TSJcG71fBZ7h8fo3YjsjWI2JrBQ5WjVdWVLZv6lnBp7d8DkZsmdATcxLZr6fWuxn6/eC7Fbh/BZ8B8tkdsZlQYkKBobLtaob2cPBNGnxsBZ+x8tkUsf0pW9+I7RrZNjRDe97K/lQFn/nyWRKx7c17B4AXZJvXDO2xT/cvnQTHl9z2Zyv0eRF7tqcaGPD9nO1ffk0BsEgBfgEubtBvgo69hsU5feyIbBgU8LPFH5/Gmw6gF7DKzfEPRPrMcjPSGuCknLHswzAMdlxf4Efx05IlomA9VFjIFrQZznavOLM922iq1tHWMMRxD4vbGFsokwC4UUE7HWenO8PNJfyzvsPUHuS+bpel1t8SnOgM+xxnE4GhTwn/bl8t4Jmk55AGQuw0Z9jhuB3iRhb4tqp6clS1shHuQ5hYSwJOzDgF3hzZ6o8r8LXDk6FL7UfUfqcO7aEYqyIa1jlunbjJBb6j/NMEPlV7eh3aQzHXK/jrjltVRpAtdP5pupd8SB3aQzH3KPiLjlsq7u4C30nq96HatgMwDK9DeyhmroIvdNxCcXMLfKeq31q1P1N7ah3a87Yrcxw3R9yiAt9b1G+F2k/mVVuSA1im4HdEqpHLCnzvU7/nghmws7YV3YmxfVS3PZHddYhbU7JqOd9x3ybd8TYQsyFcwNxL3F7gaxdF3epW7gnPTq09FLNVgcdEyjgdBb6vqN/tjrs1nM5rAfCdAp/huDZx2wt834x8LS/IOxYnhTs4+TrXsOylLfDN7kIujdSydqXWnlfn6h+pmuwp8N0S7smsLMQ/OJBaeygmu/vrGZwgDYcKfO02GF9td76HU2sPxVghAl/S1OnRcKRk+XVE5Gl2pdYeijkYFth05jbsL/DdE1ZQXHl1Z2rteXWpAZEr7K6S5ddejhsjbltq7XnFg9Mcd3rJWetI5P26Qtx7qbXnLYh+5hlXckHMjrUnO26muJdTa89bC47fvtr/ZQoIriB+auS6bWZq7aGYl8K9kV1Dl9mOu1nr2A8DVIDICnOli+RNgduKr3TcyjKfKvCx+l2i9nS1t9ahPRTTpnKOHVNH62+vuLaST9N+nHM+8IPad9WXQXdB2RPweLWEn/16KMTa2g9VTpBdAdiW3PZd9re87J0f8Khdkuq2+Am/pvwX/A1U8tTAcb0qYwAAAABJRU5ErkJggg=="></img>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADBklEQVR4nO2ZX2iNYRzHzy7IFnZhUfMnI6xkrnYj5UYMF4QLiuJGpPybls6NpRD5kz+NcktTLFkxxoVS/k9Ra5PlmGO4mDnGzOScj5566PXrOed99r7vcd70fi7P79v3+X3fP8/7PM+JxSIiIowAS4A3wCDwGWgHmoBtwKxY2AGeAU+BIczcAVYARbEwAlzHjrtApYXfMqAHSAL1QFm+A5zHnn7VoIufatzJV2AvUJKvANViwAxwFHiYJcRPYHkOPxXSRBKoyVeIF2Kwefr3OcBlQzPfVPAsXldz3MEM0BD43QDOiIHior7B8JJ3AKMMXmtw5xEwPsgAa8UAzQbNaiAtdPsMuhLgi0WIl8D0oALMFebtWXRHhC4FlBp0N4TuONBlCPEWmBxEgHHC+GMWnbq6H4S2zqCLC009MBpoMYRQ36FivwFGCtOhHNo9Qttm0CwUmpv69xHAJUOIBr8BlLGTHzm05YZ3oUJoKkW9w1ErBp4YZqdqPwFKheEnF32b0G8U9TGi3i/qMw2zWqufABXCrMtFf1roj4n6WFEfNHicMtyFGV4DLBBmt130m4T+lqjPFvWEwWOS4VGMew2wWxgdctHXCH2nqK8T9StZfO4LXYvXANeE0VJRLwImAvOB9Xo54OSd0F8U9c3iyi8CduplvJPXXpovAwaE0X7grJr+9DrpO7kZcPhN0JsjJ83APf3hs/IZToCt+OfPrAWc9OGT9BJAPc/vfQyqZo8dDj+bdZCJHvno2gbo1mt8N3qBx/pLehjYovfT5Qa/XKT0y3sO2KXfB+/rIX0HEnoj8lw/ryfUVVUbF6BKzevD9HulAwfXaERExN/oGUQegYSBBLA45kZIm/9Nt02AbOc3YaDPJkAn4eWBTYBWwstBmwC1hJOM1c4MmKrFYaPRtXlHiEbCRUouDt0CTDFsZgpFWh1fWjfvcuZZCOqG3bwjxPYChkj7at4RYmUBPm59wCrfzYsTg6Z/MDulgQvqACCw5kWQKv2nh9qnBkWv3qEdAKblpfGIiP+YX9ewPVVInYuYAAAAAElFTkSuQmCC"></img>
           </div>
           <p className="font-medium text-lg text-center mt-10 mr-1 ml-1">
-            Presenting my restaurant webpage project, a fusion of HTML, Tailwind
-            CSS and Webpack
+            Battleship is an engaging project crafted during my journey with
+            TheOdinProject Course. It leverages HTML, CSS, Tailwind CSS, and
+            JavaScript to offer an immersive gaming experience.
           </p>
         </div>
         <div className="back">
           <div className="flex flex-col justify-between items-center">
             <p className="text-center font-medium text-lg mt-2 ml-1 mr-1">
-              HTML structures the project, and Tailwind CSS adds the stylish
-              flair.
+              Grid Interface: Visualize the battlefield with an intuitive grid
+              interface, where each cell represents a potential target. Hit or
+              Miss: Take aim, fire, and witness the outcome as hits and misses
+              are displayed dynamically on the grid.
             </p>
           </div>
         </div>

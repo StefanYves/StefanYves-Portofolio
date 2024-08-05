@@ -15,24 +15,23 @@ const Card3 = () => {
       <div className={`card ${isHovered ? "flipped" : ""}`}>
         <div className="front flex flex-col">
           <div className="flex items-center justify-center mt-20">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAxCAYAAABznEEcAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEq0lEQVR4nOWaTWxVRRTHH33WVt2IX7jFak0MIZEStRtX4gdbobVqomHBBjQBUePHxhCXsOJhSIrmWdEKJSHsofEjfge1SDBVsIkmFo2fMSRtsT9z8H/NdN7M3NtrW/OeJ5nc9s6ZO/O7c86cc2deBbgBGAWmaS6ZBo4DKysCmAIOAPtKlDPATMm2M2q/r0QZ1rhHKyIarpQU4CBwvmTb89a+Ur7vERu//WFSb1KIug2+AQIYAmpANdDoEmDQSgoCuAJ4GvgY+FbXp4DLUxDo2dZPoO8qsNfGVwTCFE1ec0EEcEh1u2IQwLXAmPTOAe/oavI5cE0CYrf0DrkgArDxmNSKQLgNLoJ4APuBtgTEUek9k70EPeM53T+SgGjT8/8BCY0nFyICEgTwIYBu6b3um4PqbUUxuTEEEQEJAuRCOCCvOutyA0AA4iHp3u/rqX6j6gdSjg0sc8za5M2In+RCuCYUfBMBiAHp9kUg+lX/QA5E1ZmBBh8pBBHwgaHElLoQXVmnEYjDwOzFKBs3p6oDMOT7SCGIkBPnOJfv2FnbnUC77rUDL2amkXDsamBRaXD2IhCDIR/wOtiTgFgOfCS934FPdDX5ELgyAbEn8qJckMGiELsiTlxVR7WcYNcBbFVe9rWuW4BLPT0foqbnh3yvTePKh2iJtKOZISY0mDLFcqMLJdteUPuDJcuEC2F5+c8ly5SWzTJtZxegb1rKnOpOxVoLWomGlh+tyYMAOoF7gEeBu+3/+UDwd+B8UKnMTfOF+FRTtTbQqBf4DXgvBWFpBfADc8XS8f48COAqRXZfjrhpfB5ENtA5IN79nhiE8iez9e+BbcB6YLv+n3VBAnGiU8ERPbdPSeMbuveZ+2GVlzvNAYkB+BAaxDkN+DpPbwUwqdIZgXhc43khYAXPqu7JQhAeyC8xgACE2b7Jdl9P9U+ofl0E4m311R7JFn601KUwhJQsVchkU0THhTAnNrk3onuf6h+JQHxl5hRqq/p3ge/+65nYofq7IhBvFZiJD5bSJ1Z4etfLH6yuIwLxmMazMwDxvOp2LMXq1K9VaFI+sF7XSd3f6Oj6EB1OGj+iZ/Xp8xQt/5ctVZzo06BdsRnYUCBOLNfHjwG7YrHj6oWM2LemIBzTWmdObD6QmVAeRCba6B5Q1O7636TiU62QxU60wvdEvRXMqd6SEMAabWOeUnkZWJWCsFXLlt9QZFd9D/B+trqV2O3YXXi3A9gse/0T+BIYlxPaqdLDCYjuRGTv0X2r717sfafbBHDKffN6y+MCWZWI2A2R3QPoXYodwGEdCN4SMTGbkf0xiADIphBACGIh92K/sS8oV9lraLPxRYGInYGY/AHcGdBJ7YrXnZRjJJLZRiHOWv6UA3GyAISZ3096/q9mpvOAWAa8VPp8QoMyc7o50Gi1zOmVFITyr8yEtoay4kU9KQLu0Ko05oKYMwOnBbg6BuEB9Oak94t6ZrdFIDPaYRjTijXjf6Z6S2xXwoldkK5/cXq6txCEFG7XSnVW2/MH3E2zCITNwgkfwAM5kc1GiXPsWqFz7GZNO6ZtCWv233aMKi8fbtJf2Rw3iJX63VAz/t7pmJ3E/gUTeqtQxG695AAAAABJRU5ErkJggg=="></img>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAClElEQVR4nO2Zz4tOURzGv4MiiS3zI/kxjB8lTTb+ASSxslNjGsNI0pSys1I2s5GysGAyzGiShKwshqWsbCilZjCUN6QsRuaj0/u8uel97/vO63vve0/Np+7m3nue5/vUOeeec67ZIgUDOAi8J52vwDOgD2izIgJ8YGGMFTIMMJMocrrK8zagHTgB/NB7x6xoAAcUZhrYX+fdQQV5aTEDLAe+KMw2ixnKYyQwZDFDeawEJixmgC0K8rmQs1eTU3aPxQxwR0FOWcwAJxVk3GIG6FGQ2cVxUhSACVrPc48gQ61OAbz1CLJdYrP/LbZw75vyvughFlbFnyS41aXCBgBWaRU+D2z0Ep1UkEEXwQYA+uX51LwAzkj0tptoHcIAd98TATsl+tFNNAWgW13qO7DSvNA4CYvHQLebcA2AS/K6bt4A9yQ+4C6eAFiiXWxgr3kDnJX4LXfxBMA++bzJZFkE7JLBjLt49ZXEBcsCjZPKPn5TRh5rgJ/Ab6ArC4+K0X0F6c9I/7T0n2ShnzQ6J6PRjPRfSP9oFvpJo921DvgctHdIuwSs8NavNjUGo8AGZ+0R6V711E0zfCDDPkfNZdqFBnq9dOuZDsvwhqPmYWm+8tJsxLRXpu8ymA2HvTQbMV2q/yje/ALW5hZEYR46h5gHruQaQkHOq4BrFjPAHgV5bTFDeboMm55Au8UMf78nxy1mgAEFmbKYAVYnliuXgfVharYYAY4Ac47T8FQrwxxyDDIHrGtVkFEVET6SHboepf1XAcZT2ozln6JcVGXV2pG416V7pRptSiltvuVV+79FVb4nnY0WRRNtMidx3hW6Rqeux7o36dUmr9/YldOVJKH7bPZqY3mgwXpXXSZc4fQ+taBm2gT+AHVAko/0/qP/AAAAAElFTkSuQmCC"></img>
           </div>
           <p className="font-medium text-lg text-center mt-10 mr-1 ml-1">
-            Introducing a dynamic 2-player Tic Tac Toe game crafted with
-            JavaScript for an interactive gaming experience. The simplicity of
-            HTML, complemented by CSS styling, ensures an intuitive and visually
-            appealing interface.
+            FakeStore is a React-based e-commerce platform where users can
+            browse through a collection of jewelry products fetched from the
+            FakeStore API, add items to their cart, and view their cart
+            contents.
           </p>
         </div>
         <div className="back">
           <div className="flex flex-col justify-between items-center">
             <p className="text-center font-medium text-lg mt-2 ml-1 mr-1">
-              JavaScript drives the game's functionality, allowing both players
-              to take turns seamlessly. Immerse yourself in the timeless fun of
-              Tic Tac Toe, where skill and strategy meet in a friendly duel.
-              Enjoy a classic gaming experience with this JavaScript-powered
-              2-player Tic Tac Toe, perfect for challenging your friends and
-              reliving nostalgic moments.
+              In FakeStore, users can: Browse through a collection of jewelry
+              products fetched from the FakeStore API. Add items to their cart
+              and adjust the quantity of each item. View their cart contents and
+              remove items from the cart. See real-time updates of the total
+              number of items in the cart.
             </p>
           </div>
         </div>

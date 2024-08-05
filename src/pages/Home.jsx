@@ -107,23 +107,9 @@ const Home = () => {
           <Fade right>
             <Card3 />
           </Fade>
-          <a href="https://nismobdesign.ro/" target="_blank" rel="noreferrer">
-            <Fade right>
-              <div className="flex items-center justify-center mt-5">
-                <div className="transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none p-2 border-none bg-white hover:bg-violet-800 hover:ease-in-out rounded-full w-14">
-                  <img src={link} alt="" />
-                </div>
-              </div>
-            </Fade>
-          </a>
-        </div>
-        <div className="flex-col items-center justify-center m-5">
-          <Fade right>
-            <Card4 />
-          </Fade>
           <div className="flex justify-center">
             <a
-              href="https://silver-cat-9745c6.netlify.app"
+              href="https://gameinventoryapp.adaptable.app"
               target="_blank"
               rel="noreferrer"
             >
@@ -136,7 +122,40 @@ const Home = () => {
               </Fade>
             </a>
             <a
-              href="https://github.com/StefanYves/TOP-TodoList"
+              href="https://github.com/StefanYves/invetoryapp"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Fade right>
+                <div className="flex items-center justify-center mt-5">
+                  <div className="transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none p-2 border-none bg-white hover:bg-violet-800 hover:ease-in-out rounded-full w-14">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADtklEQVR4nO2ZSWgVQRCGP2OCS3CJYoy7uCtiDi6o8aAIikvQi4oGvCiiRo2E6FXJQdxQg4LgUTx4cyPuHhVRD0bcsyDu4IJrTNTnSEMNPOfNm1czb2YSJD8UDNNT1fV3V1dX90AH/l8UAEuBfUAt8Bj4CLSKmOdH0ma+WQL0pp2gC1AGXAJ+A5ZPMToXgFViK3Z0AyqBVwGcTycvga1A17hILAAaQiTglHpgfpQEzNTXREjAKcdl5kNFf+BOjCQskVtAYVgkhst0W20kT8WHrNBP0qjVxtIAFAUl0bWNwsnyCLNAKfpoO3DecsjhICnWy+B2CbspwA7gWRbOmd1+G1As1cGBDN/P05LoptgnBruEoSH0A7gKVACzgNFAvsgYebcROAN8BTYDnR22ihWLXxVilYpRTLf75mlHy+PbAYr+zUB5oouy7Ah9o0pCkaL/F5lmpUwZ1+MiJFKi9GGll5FLSiPLIyRSrvThfDoDBT5K8eoIiRxT+vAL6OlmYKnSwGdZkFFhPPBT6Uupm4H9SmWT56PGSaUve92Ua5XK02Igskzpy1k35afKuMyNgchYJRFT0KbgvULRfBMHhiiJvHNTblUomm86xUBkoiMKPor8cfjT4qZsZ4rZUu+MAPoAA+XZljiIJCNXtoYC6dtUFYOSBjYFn6TxJnAXaJRQeiPPtqwgehz2iIrvScvAzFIKnkjjNUmxWyRPm4p1khw37VGJGjnS11BggmTKRVI575a7MPsIkIKL0rhLqsuDwCngOlAns/FBpnN1xLPRIqPdBDwAbgPngCNyFtrvVaZUKzOFkW8yU2FjncuC9pKdbkbm+jBgpBlYE1KomZJ8j08SRua4GeuuTMFOuSFryXnS0yBfBqMxQL8tXucie504xZxT1soGlM7wW+AEsEFGaiTQK8l2XznHmOvQKikvvgYgYImYkiotSj1SXomcwd8qw65KbihtFMq75iyct5JkYaa015RGsU7apwJfMpAwpNOhJAQy9eKLJyo8DJhcbpcQFyU07J84z4ErwOJMHQDrsyRSrr3duBckLn0gx6MPK4Pc9VOBzwQSLkYSIe4fGwKQSADT/XZ0JI2xT3KxNlgTpx4YFYBITZCO8qTu8tNRZ5/2/di+7PMC8B/09BnLfqG1+yCMP8DDgIdtSOS+nBhDQQ+pNOMmciWKf/F5UmInYiCSAA5FfdExWc4HURGpA2YQE3IlBTc4fvj7xeskfWNrU0zXTSnIkbLldFL54gelorswyz2pAx0gIvwFLXDNiM6zHVAAAAAASUVORK5CYII=" />
+                  </div>
+                </div>
+              </Fade>
+            </a>
+          </div>
+        </div>
+        <div className="flex-col items-center justify-center m-5">
+          <Fade right>
+            <Card4 />
+          </Fade>
+          <div className="flex justify-center">
+            <a
+              href="https://minimessageboard-top.adaptable.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Fade right>
+                <div className="flex items-center justify-center mt-5">
+                  <div className="transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none p-2 border-none bg-white hover:bg-violet-800 hover:ease-in-out rounded-full w-14">
+                    <img src={link} alt="" />
+                  </div>
+                </div>
+              </Fade>
+            </a>
+            <a
+              href="https://github.com/StefanYves/mini-message-board"
               target="_blank"
               rel="noreferrer"
             >
@@ -156,7 +175,7 @@ const Home = () => {
           </Fade>
           <div className="flex justify-center">
             <a
-              href="https://fluffy-lamington-c0b466.netlify.app/"
+              href="https://mmbarbershop-2a2e5.web.app/"
               target="_blank"
               rel="noreferrer"
             >
@@ -169,7 +188,7 @@ const Home = () => {
               </Fade>
             </a>
             <a
-              href="https://github.com/StefanYves/TOP-Library"
+              href="https://github.com/StefanYves/mmbarbershop"
               target="_blank"
               rel="noreferrer"
             >
@@ -189,7 +208,7 @@ const Home = () => {
           </Fade>
           <div className="flex justify-center">
             <a
-              href="https://jocular-horse-2e8e34.netlify.app"
+              href="https://astonishing-macaron-dd6bc3.netlify.app"
               target="_blank"
               rel="noreferrer"
             >
@@ -202,7 +221,7 @@ const Home = () => {
               </Fade>
             </a>
             <a
-              href="https://github.com/StefanYves/TOPTicTacToe"
+              href="https://github.com/StefanYves/ShoppingCart"
               target="_blank"
               rel="noreferrer"
             >

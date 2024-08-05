@@ -39,7 +39,7 @@ const AboutMe = () => {
 
             <p class="max-w-2xl text-xl mb-20">
               <Fade left>
-                Passionate web developer and computer science student at the
+                Passionate web developer and computer science graduate at the
                 Romanian American University in Bucharest. I create captivating
                 digital experiences, blending academic knowledge with creative
                 problem-solving. From sleek interfaces to seamless

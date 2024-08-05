@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "../Flipcard.css";
-import gd from "../assets/gd.png";
+
 
 const Card3 = () => {
   const [isHovered, setIsHovered] = useState(false);

@@ -104,7 +104,7 @@ const Home = () => {
 
           <div className="flex justify-center">
             <a
-              href="https://gameinventoryapp.adaptable.app"
+              href="https://invetoryapp-0yev.onrender.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -135,7 +135,7 @@ const Home = () => {
 
           <div className="flex justify-center">
             <a
-              href="https://minimessageboard-top.adaptable.app"
+              href="https://mini-message-board-rg0v.onrender.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -259,7 +259,7 @@ const Home = () => {
 
           <div className="flex justify-center">
             <a
-              href="https://membersonlytop.adaptable.app"
+              href="https://membersonly-tlh2.onrender.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -290,7 +290,7 @@ const Home = () => {
 
           <div className="flex justify-center">
             <a
-              href="https://fileuploadertop.adaptable.app"
+              href="https://fileuploader-j5v5.onrender.com"
               target="_blank"
               rel="noreferrer"
             >
